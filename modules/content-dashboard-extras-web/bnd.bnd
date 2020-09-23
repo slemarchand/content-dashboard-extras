@@ -1,0 +1,12 @@
+Bundle-Name: content-dashboard-extras-web
+Bundle-SymbolicName: content.dashboard.extras.web
+Bundle-Version: 1.0.0
+
+Import-Package: \
+  !*avalon*,\
+  !org.apache.log*,\
+  \
+  *
+  
+Web-ContextPath: /content-dashboard-extras-web
+-sources: true

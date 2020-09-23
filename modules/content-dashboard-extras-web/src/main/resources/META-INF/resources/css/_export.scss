@@ -1,0 +1,35 @@
+h2 .extras-export-toolbar {
+	
+	position: relative;
+	
+	float: right;
+	
+	display: inline-block;
+	
+	font-size: 1rem;
+	
+	color: #6b6c7e;
+	
+	.nav-item a {
+		img {
+			width: 15px;
+		}
+		svg {
+			fill: #6b6c7e;
+		}
+		&:hover {
+		 	fill: black;
+		 	color: black;
+		}
+		&[href]:hover {
+        	text-decoration: none;
+    	} 
+	}
+	
+	.dropdown-menu {
+	    position: absolute;
+	    top: 20px;
+	    left: -100px;
+	    min-width: auto;
+    }
+}
